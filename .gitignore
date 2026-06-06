@@ -1,5 +1,47 @@
+# PlatformIO build artifacts
 .pio/
+.pioinit
+
+# Editor / IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build outputs
 *.bin
 *.elf
+*.hex
+*.o
+*.obj
 *.cpp.o
+*.c.o
+*.d
+*.map
+
+# OS junk
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Tooling caches / runtime
+.cache/
+.tmp/
+tmp/
+*.log
+*.bak
+*.tmp
+
+# Agent / orchestrator scratch
+.omo/
+
+# Secrets / local overrides
+*.local
+.env
+secrets.h
