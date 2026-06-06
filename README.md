@@ -79,7 +79,7 @@ Edit `src/main.cpp` to change:
 | Constant | Default | Description |
 |---|---|---|
 | `WIFI_SSID` | gryffindor | WiFi network name (supports hidden SSIDs) |
-| `WIFI_PASSWORD` | YOUR_WIFI_PASSWORD | WiFi password |
+| `WIFI_PASSWORD` | your_password_here | WiFi password |
 | `LCD_ADDR` | 0x27 | I2C address of LCD backpack (0x27 or 0x3F) |
 | `UPDATE_INTERVAL_MS` | 900000 (15 min) | Price refresh interval |
 | `DISPLAY_CYCLE_MS` | 5000 (5 sec) | Ticker cycle interval |
